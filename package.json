@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "This repository is to practice Javascript concepts",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "core.p1_call_apply_bind": "nodemon ./core/p1_call_apply_bind.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
