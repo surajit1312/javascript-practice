@@ -18,8 +18,12 @@ const write = function (message) {
   }
 };
 
-const logNote = function (message, newline) {
-  const formattedMessage = newline ? `\n◕‿◕ ${message}\n` : `◕‿◕ ${message}`;
+const logNote = function (message, newline, prepend, append) {
+  prepend = prepend && prepend !== "" ? prepend : "";
+  append = append && append !== "" ? append : "";
+  const formattedMessage = newline
+    ? `\n◕‿◕ ${prepend}${message}${append}\n`
+    : `◕‿◕ ${prepend}${message}${append}`;
   console.log(formattedMessage);
 };
 
