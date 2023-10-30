@@ -6,7 +6,8 @@
   "scripts": {
     "p1_call_apply_bind": "nodemon ./core/p1_call_apply_bind.js",
     "p2_polyfills_call_apply_bind": "nodemon ./polyfills/p2_polyfills_call_apply_bind.js",
-    "p3_map_filter_reduce": "nodemon ./core/p3_map_filter_reduce.js"
+    "p3_map_filter_reduce": "nodemon ./core/p3_map_filter_reduce.js",
+    "p4_polyfills_array_for_each": "nodemon ./polyfills/p4_polyfills_array_for_each.js"
   },
   "keywords": [],
   "author": "",
