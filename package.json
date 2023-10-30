@@ -9,7 +9,8 @@
     "p3_map_filter_reduce": "nodemon ./core/p3_map_filter_reduce.js",
     "p4_polyfills_array_for_each": "nodemon ./polyfills/p4_polyfills_array_for_each.js",
     "p5_polyfills_array_map": "nodemon ./polyfills/p5_polyfills_array_map.js",
-    "p6_polyfills_array_filter": "nodemon ./polyfills/p6_polyfills_array_filter.js"
+    "p6_polyfills_array_filter": "nodemon ./polyfills/p6_polyfills_array_filter.js",
+    "p7_polyfills_array_reduce": "nodemon ./polyfills/p7_polyfills_array_reduce.js"
   },
   "keywords": [],
   "author": "",
