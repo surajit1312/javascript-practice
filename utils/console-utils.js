@@ -32,6 +32,11 @@ const logConsole = function (message, newline) {
   console.log(formattedMessage);
 };
 
+const logError = function (message, newline) {
+  const formattedMessage = newline ? `\n◘ ${message}\n` : `◘ ${message}`;
+  console.error(formattedMessage);
+};
+
 const logExeBlock = function (newline = true, message = null) {
   message = message ? message.trim() : null;
   const star = "=";
@@ -46,4 +51,4 @@ const logExeBlock = function (newline = true, message = null) {
   console.log(logger);
 };
 
-module.exports = { write, logNote, logConsole, logExeBlock };
+module.exports = { write, logNote, logConsole, logError, logExeBlock };
