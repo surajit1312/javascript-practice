@@ -10,7 +10,9 @@
     "p4_polyfills_array_for_each": "nodemon ./polyfills/p4_polyfills_array_for_each.js",
     "p5_polyfills_array_map": "nodemon ./polyfills/p5_polyfills_array_map.js",
     "p6_polyfills_array_filter": "nodemon ./polyfills/p6_polyfills_array_filter.js",
-    "p7_polyfills_array_reduce": "nodemon ./polyfills/p7_polyfills_array_reduce.js"
+    "p7_polyfills_array_reduce": "nodemon ./polyfills/p7_polyfills_array_reduce.js",
+    "p8_promise_illustration": "nodemon ./core/p8_promise_illustration.js",
+    "p9_promise_chaining": "nodemon ./core/p9_promise_chaining.js"
   },
   "keywords": [],
   "author": "",
