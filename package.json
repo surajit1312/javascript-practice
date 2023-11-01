@@ -13,7 +13,8 @@
     "p7_polyfills_array_reduce": "nodemon ./polyfills/p7_polyfills_array_reduce.js",
     "p8_promise_illustration": "nodemon ./core/p8_promise_illustration.js",
     "p9_promise_chaining": "nodemon ./core/p9_promise_chaining.js",
-    "p10_polyfills_promise": "nodemon ./polyfills/p10_polyfills_promise.js"
+    "p10_polyfills_promise": "nodemon ./polyfills/p10_polyfills_promise.js",
+    "p11_async_await_illustration": "nodemon ./core/p11_async_await_illustration.js"
   },
   "keywords": [],
   "author": "",
