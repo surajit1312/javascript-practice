@@ -19,7 +19,7 @@ h2.title {
 h2,
 h4 {
   color: #880000;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 div.row {
@@ -61,4 +61,8 @@ textarea {
 
 .right-span {
   float: right;
+}
+
+.clearboth {
+  clear: both;
 }

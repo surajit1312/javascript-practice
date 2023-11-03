@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Debounce and Throttle</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
-      <h2 class="title">Illustration for Debounce in Javascript</h2>
+      <h2 class="title">
+        Illustration for Debounce and Throttle in Javascript
+      </h2>
       <div class="row">
         <span class="left-span">
           <label for="input-search1">
@@ -45,6 +47,22 @@
         </span>
       </div>
     </div>
+    <div class="clearboth"></div>
+    <div class="container">
+      <div class="row">
+        <span class="left-span">
+          <h4>Window Size: Without Throttle</h4>
+          <div id="inner-width1"></div>
+          <div id="inner-height1"></div>
+        </span>
+        <span class="right-span">
+          <h4>Window Size: With Throttle</h4>
+          <div id="inner-width2"></div>
+          <div id="inner-height2"></div>
+        </span>
+      </div>
+    </div>
     <script src="./app.js"></script>
+    <script src="./resize.js"></script>
   </body>
 </html>
