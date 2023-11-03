@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title">Illustration for Debounce in Javascript</h2>
+      <div class="row">
+        <span class="left-span">
+          <label for="input-search1">
+            Search
+            <input type="text" name="" id="input-search1" />
+          </label>
+        </span>
+        <span class="right-span">
+          <label for="input-search2">
+            Search (Debounce)
+            <input type="text" name="" id="input-search2" />
+          </label>
+        </span>
+      </div>
+      <div class="row text-area-container">
+        <button id="btnClear" onclick="onClearConsole()">Clear Console</button>
+        <span class="left-span">
+          <h4>Number of API hits: Without Debounce</h4>
+          <textarea
+            name="text-hits1"
+            id="text-hits1"
+            cols="75"
+            rows="20"
+          ></textarea>
+        </span>
+        <span class="right-span">
+          <h4>Number of API hits: With Debounce</h4>
+          <textarea
+            name="text-hits2"
+            id="text-hits2"
+            cols="75"
+            rows="20"
+          ></textarea>
+        </span>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
