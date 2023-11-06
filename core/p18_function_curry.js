@@ -56,7 +56,31 @@ function curry(fn) {
 const totalSum = curry(summation);
 
 consoleWriter.logConsole(
-  `Curried Summation: ${totalSum(1)(2)(3)(4)}`,
+  `Curried Summation for totalSum(1)(2)(3)(4): ${totalSum(1)(2)(3)(4)}`,
+  true,
+  "magenta"
+);
+
+consoleWriter.logConsole(
+  `Curried Summation for totalSum(1, 2)(3, 4): ${totalSum(1, 2)(3, 4)}`,
+  true,
+  "magenta"
+);
+
+consoleWriter.logConsole(
+  `Curried Summation for totalSum(1, 2, 3)(4) : ${totalSum(1, 2, 3)(4)}`,
+  true,
+  "magenta"
+);
+
+consoleWriter.logConsole(
+  `Curried Summation for totalSum(1, 2, 3)(4) : ${totalSum(1, 2, 3)(4)}`,
+  true,
+  "magenta"
+);
+
+consoleWriter.logConsole(
+  `Curried Summation for totalSum(1, 2, 3, 4) : ${totalSum(1, 2, 3, 4)}`,
   true,
   "magenta"
 );
