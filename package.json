@@ -18,7 +18,8 @@
     "p12_async_await_race": "nodemon ./core/p12_async_await_race.js",
     "p15_publish_subscribe_pattern": "nodemon ./core/p15_publish_subscribe_pattern.js",
     "p16_closure_example1": "nodemon ./core/p16_closure_example1.js",
-    "p17_object_define_property": "nodemon ./core/p17_object_define_property.js"
+    "p17_object_define_property": "nodemon ./core/p17_object_define_property.js",
+    "p18_function_curry": "nodemon ./core/p18_function_curry.js"
   },
   "keywords": [],
   "author": "",
