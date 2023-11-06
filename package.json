@@ -16,7 +16,8 @@
     "p10_polyfills_promise": "nodemon ./polyfills/p10_polyfills_promise.js",
     "p11_async_await_illustration": "nodemon ./core/p11_async_await_illustration.js",
     "p12_async_await_race": "nodemon ./core/p12_async_await_race.js",
-    "p15_publish_subscribe_pattern": "nodemon ./core/p15_publish_subscribe_pattern.js"
+    "p15_publish_subscribe_pattern": "nodemon ./core/p15_publish_subscribe_pattern.js",
+    "p16_closure_example1": "nodemon ./core/p16_closure_example1.js"
   },
   "keywords": [],
   "author": "",
