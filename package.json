@@ -19,7 +19,12 @@
     "p15_publish_subscribe_pattern": "nodemon ./core/p15_publish_subscribe_pattern.js",
     "p16_closure_example1": "nodemon ./core/p16_closure_example1.js",
     "p17_object_define_property": "nodemon ./core/p17_object_define_property.js",
-    "p18_function_curry": "nodemon ./core/p18_function_curry.js"
+    "p18_function_curry": "nodemon ./core/p18_function_curry.js",
+    "p19_var_let_const": "nodemon ./core/p19_var_let_const.js",
+    "playground/1_polyfills_call_apply_bind": "nodemon ./playground/1_polyfills_call_apply_bind.js",
+    "playground/2_array_polyfills": "nodemon ./playground/2_array_polyfills.js",
+    "playground/3_polyfills_promise": "nodemon ./playground/3_polyfills_promise.js",
+    "playground/4_flatten_array": "nodemon ./playground/4_flatten_array.js"
   },
   "keywords": [],
   "author": "",
