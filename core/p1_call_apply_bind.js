@@ -21,7 +21,7 @@ getAddress.call(person, "Bengaluru", "Karnataka");
 
 consoleWriter.logExeBlock(true, "Function - Call");
 consoleWriter.logNote(
-  "Application of Function.Call - Used for function borrowing"
+  "Application of Function.Call - Used for function borrowing",
 );
 
 // ======================================= Call =========================================
@@ -39,7 +39,7 @@ consoleWriter.logExeBlock();
 // ======================================= Apply ========================================
 consoleWriter.logExeBlock(true, "Function - Apply");
 consoleWriter.logNote(
-  "Application of Function.Apply - Used for function borrowing"
+  "Application of Function.Apply - Used for function borrowing",
 );
 
 person.getFullName.apply(student);
@@ -52,7 +52,7 @@ consoleWriter.logExeBlock();
 // ======================================= Bind =========================================
 consoleWriter.logExeBlock(true, "Function - Bind");
 consoleWriter.logNote(
-  "Application of Function.Bind - Used for function borrowing and returning"
+  "Application of Function.Bind - Used for function borrowing and returning",
 );
 
 const getStudentFullName = person.getFullName.bind(student);

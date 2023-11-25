@@ -49,7 +49,7 @@ const pubsub = new PubSub();
 consoleWriter.logExeBlock(
   true,
   "Subscribe set for 'fooSubs', 'logSubs' and 'nonSubs'",
-  "green"
+  "green",
 );
 consoleWriter.logNote(
   `
@@ -60,7 +60,7 @@ const nonSubs = pubsub.subscribe("subscription2", sumPlusOne);
   true,
   "",
   "",
-  "green"
+  "green",
 );
 
 const fooSubs = pubsub.subscribe("subscription1", sumPlusOne);
@@ -70,7 +70,7 @@ const nonSubs = pubsub.subscribe("subscription2", sumPlusOne);
 consoleWriter.logExeBlock(
   true,
   "Publish called with args on 'fooSubs', 'logSubs' and 'nonSubs'",
-  "yellow"
+  "yellow",
 );
 consoleWriter.logNote(
   `
@@ -81,7 +81,7 @@ pubsub.publish("subscription2", 76);
   true,
   "",
   "",
-  "yellow"
+  "yellow",
 );
 
 pubsub.publish("subscription1", 99);
@@ -95,6 +95,6 @@ fooSubs.unsubscribe();
 consoleWriter.logExeBlock(
   true,
   "After unsubscribe 'fooSubs' only 'logSubs' subscription is performed as shown below",
-  "magenta"
+  "magenta",
 );
 pubsub.publish("subscription1", 999);

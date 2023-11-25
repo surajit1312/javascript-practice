@@ -28,7 +28,7 @@ Array.prototype.myReduce = function (callback, init) {
 consoleWriter.logNote(
   Array.prototype.myReduce,
   true,
-  "Array.prototype.myReduce = "
+  "Array.prototype.myReduce = ",
 );
 
 const myOutput = input.myReduce((acc, curr, index, arr) => {

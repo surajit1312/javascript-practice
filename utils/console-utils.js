@@ -28,9 +28,9 @@ const write = function (message, foregroundColor = "black") {
     if (i == 2) {
       const offset = message.length % 2 === 0 ? 1 : 0;
       logger = `${star.repeat(
-        (size - message.length) / 2 - 2
+        (size - message.length) / 2 - 2,
       )}   ${message}  ${star.repeat(
-        (size - message.length) / 2 - 2 - offset
+        (size - message.length) / 2 - 2 - offset,
       )}`;
     } else {
       logger = star.repeat(size);
@@ -45,7 +45,7 @@ const logNote = function (
   newline,
   prepend,
   append,
-  foregroundColor = "black"
+  foregroundColor = "black",
 ) {
   prepend = prepend && prepend !== "" ? prepend : "";
   append = append && append !== "" ? append : "";
@@ -71,7 +71,7 @@ const logError = function (message, newline, foregroundColor = "black") {
 const logExeBlock = function (
   newline = true,
   message = null,
-  foregroundColor = "black"
+  foregroundColor = "black",
 ) {
   message = message ? message.trim() : null;
   const star = "=";
@@ -79,7 +79,7 @@ const logExeBlock = function (
   const size = 100;
   let logger = message
     ? `${star.repeat(
-        (size - message.length) / 2 - 2
+        (size - message.length) / 2 - 2,
       )}   ${message}  ${star.repeat((size - message.length) / 2 - 2 - offset)}`
     : star.repeat(size);
   logger = newline ? `\n${logger}\n` : logger;

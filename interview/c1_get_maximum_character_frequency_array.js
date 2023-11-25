@@ -2,7 +2,7 @@ const consoleWriter = require("../utils/console-utils");
 
 consoleWriter.write(
   "Interview Question - Find character that has a maximum frequency in an Array",
-  "magenta"
+  "magenta",
 );
 consoleWriter.logExeBlock(true, "", "green");
 
@@ -16,7 +16,7 @@ const findMaxChar = function (charArr) {
       acc = item[1] > acc[1] ? item : acc;
       return acc;
     },
-    [null, 0]
+    [null, 0],
   )[0];
 };
 
@@ -40,7 +40,7 @@ const maxChar = findMaxChar(charArr);
 consoleWriter.logConsole(
   `Character that occurred maximum number of times is '${maxChar}'`,
   false,
-  "yellow"
+  "yellow",
 );
 
 consoleWriter.logExeBlock(true, "", "green");

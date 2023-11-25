@@ -20,19 +20,19 @@ function promiseRaceCall() {
     consoleWriter.logConsole(
       `Hello, Async Await - ${displayTime()}`,
       false,
-      "yellow"
+      "yellow",
     );
     const value1 = await p1;
     consoleWriter.logConsole(
       `Hello Javascript 1 ${value1} - ${displayTime()}`,
       false,
-      "magenta"
+      "magenta",
     );
     const value2 = await p2;
     consoleWriter.logConsole(
       `Hello Javascript 2 ${value2} - ${displayTime()}`,
       false,
-      "magenta"
+      "magenta",
     );
     consoleWriter.logExeBlock(true, "", "yellow");
   }
@@ -59,7 +59,7 @@ function promisePracticalUsage() {
     consoleWriter.logConsole(
       `Response: ${JSON.stringify(gitUserData, null, 4)}`,
       true,
-      "green"
+      "green",
     );
     consoleWriter.logExeBlock(false, "", "green");
   }

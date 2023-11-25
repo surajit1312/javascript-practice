@@ -28,7 +28,7 @@ Function.prototype.myCall = function (scope, ...args) {
 consoleWriter.logNote(
   Function.prototype.myCall,
   true,
-  "Function.prototype.myCall = "
+  "Function.prototype.myCall = ",
 );
 
 getIntro.myCall(person, "Bengaluru", "Karnataka");
@@ -51,7 +51,7 @@ Function.prototype.myApply = function (scope, args) {
 consoleWriter.logNote(
   Function.prototype.myApply,
   true,
-  "Function.prototype.myApply = "
+  "Function.prototype.myApply = ",
 );
 
 getIntro.myApply(person, ["Bengaluru", "Karnataka"]);
@@ -80,7 +80,7 @@ Function.prototype.myBind = function (scope, ...args) {
 consoleWriter.logNote(
   Function.prototype.myBind,
   true,
-  "Function.prototype.myBind = "
+  "Function.prototype.myBind = ",
 );
 
 const introMyBinder = getIntro.myBind(person, ["Bengaluru", "Karnataka"]);

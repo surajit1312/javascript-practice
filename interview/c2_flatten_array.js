@@ -20,6 +20,6 @@ const flatterArray = function (nums) {
 const flatArr = flatterArray(nums);
 
 consoleWriter.logConsole(
-  `Flattened array of ${JSON.stringify(nums)} is : ${JSON.stringify(flatArr)}`
+  `Flattened array of ${JSON.stringify(nums)} is : ${JSON.stringify(flatArr)}`,
 );
 consoleWriter.logExeBlock(true, "", "green");

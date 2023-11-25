@@ -134,7 +134,7 @@ setTimeout(() => {
 function staticCustomPromiseCalls() {
   consoleWriter.logExeBlock(
     true,
-    "Static implementation calls on CustomPromise.resolve and CustomPromise.reject"
+    "Static implementation calls on CustomPromise.resolve and CustomPromise.reject",
   );
 
   CustomPromise.resolve("Success").then((val) => consoleWriter.logConsole(val));
@@ -142,7 +142,7 @@ function staticCustomPromiseCalls() {
 
   consoleWriter.logExeBlock(
     true,
-    "Static implementation calls on CustomPromise.all"
+    "Static implementation calls on CustomPromise.all",
   );
 
   CustomPromise.all([

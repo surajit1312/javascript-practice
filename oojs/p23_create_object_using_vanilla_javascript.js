@@ -2,7 +2,7 @@ const consoleWriter = require("../utils/console-utils");
 
 consoleWriter.write(
   "Object Oriented JavaScript - Create Object using Vanilla JavaScript",
-  "magenta"
+  "magenta",
 );
 
 // creating constructor
@@ -17,7 +17,7 @@ Vehicle.prototype.getVehicleInfo = function () {
   consoleWriter.logConsole(
     `\n Vehicle Details: \n Name: ${this.name} \n Maker: ${this.maker} \n Engine: ${this.engine}`,
     true,
-    "yellow"
+    "yellow",
   );
 };
 

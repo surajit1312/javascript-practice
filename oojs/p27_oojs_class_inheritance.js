@@ -2,7 +2,7 @@ const consoleWriter = require("../utils/console-utils");
 
 consoleWriter.write(
   "Object Oriented JavaScript - Inheritance Illustration",
-  "magenta"
+  "magenta",
 );
 
 // Inheritance Example

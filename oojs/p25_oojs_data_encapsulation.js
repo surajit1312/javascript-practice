@@ -2,7 +2,7 @@ const consoleWriter = require("../utils/console-utils");
 
 consoleWriter.write(
   "Object Oriented JavaScript - Data Encapsulation Illustration",
-  "magenta"
+  "magenta",
 );
 
 // Encapsulation Example
@@ -20,7 +20,7 @@ class Person {
     consoleWriter.logConsole(
       `${this.name} lives in ${this.address}`,
       true,
-      "yellow"
+      "yellow",
     );
   }
 }

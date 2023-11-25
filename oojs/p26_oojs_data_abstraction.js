@@ -2,7 +2,7 @@ const consoleWriter = require("../utils/console-utils");
 
 consoleWriter.write(
   "Object Oriented JavaScript - Data Abstraction Illustration",
-  "magenta"
+  "magenta",
 );
 
 // Abstraction Example
@@ -15,7 +15,7 @@ function Person(fname, lname) {
     consoleWriter.logConsole(
       `Person details from No Access Method: ${first_name} ${last_name}.`,
       true,
-      "yellow"
+      "yellow",
     );
   };
 
@@ -23,7 +23,7 @@ function Person(fname, lname) {
     consoleWriter.logConsole(
       `Person details from Access Method: ${first_name} ${last_name}.`,
       true,
-      "yellow"
+      "yellow",
     );
   };
 }
@@ -32,7 +32,7 @@ const p = new Person("Rahul", "Roy");
 consoleWriter.logConsole(
   `Name: ${p.first_name} ${p.last_name}`,
   true,
-  "yellow"
+  "yellow",
 );
 
 // getPersonDetailsNoAccess method will not be accessible using instance of Person

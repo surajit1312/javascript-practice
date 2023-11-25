@@ -6,7 +6,7 @@ consoleWriter.write("Object - Define Property", "green");
 consoleWriter.logExeBlock(
   true,
   "Object - Define Property - Creating Locked Objects",
-  "yellow"
+  "yellow",
 );
 
 var lockedObj = {};
@@ -22,15 +22,15 @@ Object.defineProperty(lockedObj, "locked", {
 consoleWriter.logConsole(
   "If value is changed, then shows Error as : TypeError: Cannot assign to read only property 'locked' of object '#<Object>'",
   true,
-  "magenta"
+  "magenta",
 );
 
 consoleWriter.logConsole(
   `Is lockedObj property 'locked' enumerable? : ${lockedObj.propertyIsEnumerable(
-    "locked"
+    "locked",
   )}`,
   true,
-  "red"
+  "red",
 );
 
 Object.defineProperty(lockedObj, "enumeratedProp", {
@@ -42,39 +42,39 @@ Object.defineProperty(lockedObj, "enumeratedProp", {
 
 consoleWriter.logConsole(
   `Is lockedObj property 'enumeratedProp' enumerable? : ${lockedObj.propertyIsEnumerable(
-    "enumeratedProp"
+    "enumeratedProp",
   )}`,
   true,
-  "red"
+  "red",
 );
 
 lockedObj.newProp = 10;
 consoleWriter.logConsole(
   `Is lockedObj property 'newProp' enumerable? : ${lockedObj.propertyIsEnumerable(
-    "newProp"
+    "newProp",
   )}`,
   true,
-  "red"
+  "red",
 );
 
 consoleWriter.logExeBlock(
   true,
   "Object - Define Property - Enumerable",
-  "yellow"
+  "yellow",
 );
 
 Object.keys(lockedObj).forEach((key) => {
   consoleWriter.logConsole(
     `Print keys only if enumerable '${key}'`,
     true,
-    "yellow"
+    "yellow",
   );
 });
 
 consoleWriter.logExeBlock(
   true,
   "Object - Define Property - Configurable",
-  "yellow"
+  "yellow",
 );
 
 var configObj = {};
@@ -97,7 +97,7 @@ Object.defineProperty(configObj, "a", {
 
 consoleWriter.logConsole(
   "Making configurable property false, only value and writable properties can be changed",
-  "yellow"
+  "yellow",
 );
 // Object.defineProperty(configObj, 'a', {
 //     value: 11,
@@ -118,5 +118,5 @@ consoleWriter.logConsole(
 consoleWriter.logConsole(
   "If 'configurable' and 'enumerable' Errors out as : TypeError: Cannot redefine property: a",
   true,
-  "magenta"
+  "magenta",
 );

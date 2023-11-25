@@ -29,7 +29,7 @@ Array.prototype.myFilter = function (callback) {
 consoleWriter.logNote(
   Array.prototype.myFilter,
   true,
-  "Array.prototype.myFilter = "
+  "Array.prototype.myFilter = ",
 );
 
 const myOutput = input.myFilter((item, index, arr) => {

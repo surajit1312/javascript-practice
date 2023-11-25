@@ -2,7 +2,7 @@ const consoleWriter = require("../utils/console-utils");
 
 consoleWriter.write(
   "Object Oriented JavaScript - Create Object using ES6 Classes",
-  "magenta"
+  "magenta",
 );
 
 class Vehicle {
@@ -16,7 +16,7 @@ class Vehicle {
     consoleWriter.logConsole(
       `\n Vehicle Details: \n Name: ${this.name} \n Maker: ${this.maker} \n Engine: ${this.engine}`,
       true,
-      "yellow"
+      "yellow",
     );
   }
 }

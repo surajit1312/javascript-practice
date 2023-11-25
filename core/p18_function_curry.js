@@ -34,7 +34,7 @@ consoleWriter.logConsole(`Curry Sum: ${curryResult}`, true, "green");
 consoleWriter.logExeBlock(
   true,
   "Function Curry v/s Partial Application in Javascript",
-  "yellow"
+  "yellow",
 );
 
 function summation(a, b, c, d) {
@@ -58,29 +58,29 @@ const totalSum = curry(summation);
 consoleWriter.logConsole(
   `Curried Summation for totalSum(1)(2)(3)(4): ${totalSum(1)(2)(3)(4)}`,
   true,
-  "magenta"
+  "magenta",
 );
 
 consoleWriter.logConsole(
   `Curried Summation for totalSum(1, 2)(3, 4): ${totalSum(1, 2)(3, 4)}`,
   true,
-  "magenta"
+  "magenta",
 );
 
 consoleWriter.logConsole(
   `Curried Summation for totalSum(1, 2, 3)(4) : ${totalSum(1, 2, 3)(4)}`,
   true,
-  "magenta"
+  "magenta",
 );
 
 consoleWriter.logConsole(
   `Curried Summation for totalSum(1, 2, 3)(4) : ${totalSum(1, 2, 3)(4)}`,
   true,
-  "magenta"
+  "magenta",
 );
 
 consoleWriter.logConsole(
   `Curried Summation for totalSum(1, 2, 3, 4) : ${totalSum(1, 2, 3, 4)}`,
   true,
-  "magenta"
+  "magenta",
 );

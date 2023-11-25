@@ -12,7 +12,7 @@ const users = [
 
 consoleWriter.logExeBlock(
   true,
-  "Get the Hashmap Object of all ages using reduce"
+  "Get the Hashmap Object of all ages using reduce",
 );
 
 const mappedObj = users.reduce((acc, curr) => {
@@ -25,28 +25,28 @@ const mappedObj = users.reduce((acc, curr) => {
 }, {});
 
 consoleWriter.logConsole(
-  "Map of all ages with frequency: " + JSON.stringify(mappedObj)
+  "Map of all ages with frequency: " + JSON.stringify(mappedObj),
 );
 
 consoleWriter.logExeBlock();
 
 consoleWriter.logExeBlock(
   true,
-  "Get all user's full name whose age < 28 - Using chaining"
+  "Get all user's full name whose age < 28 - Using chaining",
 );
 
 const usersLessThan28Age = users
   .filter((user) => user.age < 28)
   .map((filteredUser) => `${filteredUser.firstName} ${filteredUser.lastName}`);
 consoleWriter.logConsole(
-  "Users with age less than 28 are : " + JSON.stringify(usersLessThan28Age)
+  "Users with age less than 28 are : " + JSON.stringify(usersLessThan28Age),
 );
 
 consoleWriter.logExeBlock();
 
 consoleWriter.logExeBlock(
   true,
-  "Get all user's full name whose age > 28 - Using reduce"
+  "Get all user's full name whose age > 28 - Using reduce",
 );
 
 const usersMoreThan28Age = users.reduce((acc, curr) => {
@@ -56,7 +56,7 @@ const usersMoreThan28Age = users.reduce((acc, curr) => {
   return acc;
 }, []);
 consoleWriter.logConsole(
-  "Users with age more than 28 are : " + JSON.stringify(usersMoreThan28Age)
+  "Users with age more than 28 are : " + JSON.stringify(usersMoreThan28Age),
 );
 
 consoleWriter.logExeBlock();

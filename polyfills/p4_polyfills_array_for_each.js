@@ -23,7 +23,7 @@ Array.prototype.myForEach = function (callback) {
 consoleWriter.logNote(
   Array.prototype.myForEach,
   true,
-  "Array.prototype.myForEach = "
+  "Array.prototype.myForEach = ",
 );
 
 input.myForEach((item) => {

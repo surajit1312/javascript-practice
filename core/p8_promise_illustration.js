@@ -76,7 +76,7 @@ function printOrderSummary(status) {
 setTimeout(() => {
   consoleWriter.logExeBlock(
     true,
-    "Chained promises - Success - Returning resolved"
+    "Chained promises - Success - Returning resolved",
   );
   promiseSuccess();
 }, 1000);
@@ -93,7 +93,7 @@ function promiseSuccess() {
     })
     .then(function (orderId) {
       consoleWriter.logConsole(
-        `Order created with order Id [Status]:  ${orderId}`
+        `Order created with order Id [Status]:  ${orderId}`,
       );
       return proceedToPayment(orderId);
     })
@@ -118,7 +118,7 @@ function promiseSuccess() {
 setTimeout(() => {
   consoleWriter.logExeBlock(
     true,
-    "Chained promises - Failure - Returning reject"
+    "Chained promises - Failure - Returning reject",
   );
   promiseFailure();
 }, 15000);
@@ -134,7 +134,7 @@ function promiseFailure() {
     })
     .then(function (orderId) {
       consoleWriter.logConsole(
-        `Order created with order Id [Status]:  ${orderId}`
+        `Order created with order Id [Status]:  ${orderId}`,
       );
       return proceedToPayment(orderId);
     })

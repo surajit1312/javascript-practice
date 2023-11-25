@@ -11,7 +11,7 @@ function closureExample1() {
       consoleWriter.logConsole(
         `TickTok Example Unfixed - Counter: ${i}`,
         true,
-        "red"
+        "red",
       );
     }, i * 1000);
   }
@@ -25,7 +25,7 @@ function closureExample2() {
       consoleWriter.logConsole(
         `TickTok Example Fixed using 'let' instead of 'var' - Counter: ${i}`,
         true,
-        "yellow"
+        "yellow",
       );
     }, i * 1000);
   }
@@ -35,7 +35,7 @@ setTimeout(() => {
   consoleWriter.logExeBlock(
     true,
     "Closure Fixed - SetTimeOut using 'let' instead of 'var'",
-    "yellow"
+    "yellow",
   );
   closureExample2();
 }, 6000);
@@ -47,7 +47,7 @@ function closureExample3() {
         consoleWriter.logConsole(
           `TickTok Example Fixed using Closures - Counter: ${param}`,
           true,
-          "green"
+          "green",
         );
       }, param * 1000);
     };
@@ -59,7 +59,7 @@ setTimeout(() => {
   consoleWriter.logExeBlock(
     true,
     "Closure Fixed - SetTimeOut using Closures",
-    "green"
+    "green",
   );
   closureExample3();
 }, 12000);

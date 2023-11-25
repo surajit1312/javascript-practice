@@ -2,7 +2,7 @@ const consoleWriter = require("../utils/console-utils");
 
 consoleWriter.write(
   "Object Oriented JavaScript - Create Object using Literals",
-  "magenta"
+  "magenta",
 );
 
 // Defining Object using Literals
@@ -24,7 +24,7 @@ let person = {
 consoleWriter.logConsole(
   `My name is ${person.getName()}. My mobile number is ${person.phone.mobile}.`,
   true,
-  "yellow"
+  "yellow",
 );
 
 consoleWriter.logExeBlock(true, "", "magenta");
