@@ -4,6 +4,7 @@
   "description": "This repository is to practice Javascript concepts",
   "main": "index.js",
   "scripts": {
+    "lint": "npx prettier . --write",
     "p1_call_apply_bind": "nodemon ./core/p1_call_apply_bind.js",
     "p2_polyfills_call_apply_bind": "nodemon ./polyfills/p2_polyfills_call_apply_bind.js",
     "p3_map_filter_reduce": "nodemon ./core/p3_map_filter_reduce.js",
@@ -30,6 +31,8 @@
     "p26_oojs_data_abstraction": "nodemon ./oojs/p26_oojs_data_abstraction.js",
     "p27_oojs_class_inheritance": "nodemon ./oojs/p27_oojs_class_inheritance.js",
     "p28_design_LRU_cache": "nodemon ./design/p28_design_LRU_cache.js",
+    "c1_get_maximum_character_frequency_array": "nodemon ./interview/c1_get_maximum_character_frequency_array.js",
+    "c2_flatten_array": "nodemon ./interview/c2_flatten_array.js",
     "playground/1_polyfills_call_apply_bind": "nodemon ./playground/1_polyfills_call_apply_bind.js",
     "playground/2_array_polyfills": "nodemon ./playground/2_array_polyfills.js",
     "playground/3_polyfills_promise": "nodemon ./playground/3_polyfills_promise.js",
@@ -40,5 +43,8 @@
   "license": "ISC",
   "dependencies": {
     "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0"
   }
 }
