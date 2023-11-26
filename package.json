@@ -31,6 +31,7 @@
     "p26_oojs_data_abstraction": "nodemon ./oojs/p26_oojs_data_abstraction.js",
     "p27_oojs_class_inheritance": "nodemon ./oojs/p27_oojs_class_inheritance.js",
     "p28_design_LRU_cache": "nodemon ./design/p28_design_LRU_cache.js",
+    "p29_js_inheritance": "nodemon ./core/p29_js_inheritance.js",
     "c1_get_maximum_character_frequency_array": "nodemon ./interview/c1_get_maximum_character_frequency_array.js",
     "c2_flatten_array": "nodemon ./interview/c2_flatten_array.js",
     "playground/1_polyfills_call_apply_bind": "nodemon ./playground/1_polyfills_call_apply_bind.js",
