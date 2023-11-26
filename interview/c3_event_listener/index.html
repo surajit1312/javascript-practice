@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Listeners</title>
+    <style>
+      div.parent {
+        padding: 50px;
+        border: 5px solid;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+
+      div.child {
+        padding: 100px;
+        border: 5px solid;
+      }
+
+      div.grand-child {
+        padding: 100px;
+        border: 5px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="parent" class="parent">
+      <div id="child" class="child">
+        <div id="grand-child" class="grand-child">
+          <button id="btn-innermost">Click Me</button>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="app.js" />
+  </body>
+</html>
