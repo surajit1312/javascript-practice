@@ -34,6 +34,7 @@
     "p29_js_inheritance": "nodemon ./core/p29_js_inheritance.js",
     "c1_get_maximum_character_frequency_array": "nodemon ./interview/c1_get_maximum_character_frequency_array.js",
     "c2_flatten_array": "nodemon ./interview/c2_flatten_array.js",
+    "c4_merge_sort": "nodemon ./interview/c4_merge_sort.js",
     "playground/1_polyfills_call_apply_bind": "nodemon ./playground/1_polyfills_call_apply_bind.js",
     "playground/2_array_polyfills": "nodemon ./playground/2_array_polyfills.js",
     "playground/3_polyfills_promise": "nodemon ./playground/3_polyfills_promise.js",
