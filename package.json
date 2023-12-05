@@ -43,6 +43,7 @@
     "s1_bubble_sort": "nodemon ./sorting/s1_bubble_sort.js",
     "s2_merge_sort": "nodemon ./sorting/s2_merge_sort.js",
     "s3_quick_sort": "nodemon ./sorting/s3_quick_sort.js",
+    "implement-trie": "nodemon ./advanced/implement-trie.js",
     "playground/1_polyfills_call_apply_bind": "nodemon ./playground/1_polyfills_call_apply_bind.js",
     "playground/2_array_polyfills": "nodemon ./playground/2_array_polyfills.js",
     "playground/3_polyfills_promise": "nodemon ./playground/3_polyfills_promise.js",
